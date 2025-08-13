@@ -5,6 +5,8 @@ title: Welcome to My Site
 
 # Hello!
 
-This is my first Jekyll website hosted on GitHub Pages. ✨
+This is my first website hosted on GitHub Pages. ✨
+
+Theme and layout using modified jekyll-theme-cayman. Deployed with github-pages gem not GitHub Actions.
 
 More to come later....
