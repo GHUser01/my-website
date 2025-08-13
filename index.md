@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom
 title: Welcome to My Site
 ---
 
@@ -7,4 +7,4 @@ title: Welcome to My Site
 
 This is my first Jekyll website hosted on GitHub Pages. ✨
 
-I can edit this file to update the content.
+More to come later....
