@@ -1,3 +1,8 @@
-title: My Jekyll Website
-description: A simple site hosted with GitHub Pages
-theme: jekyll-theme-modernist
+title: My Website
+description: A simple site hosted with GitHub Pages and built with a custom layout
+# theme: jekyll-theme-cayman
+
+# Optional: make sure Jekyll includes your folders
+include:
+  - _layouts
+  - assets/css
