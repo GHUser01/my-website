@@ -1,6 +1,26 @@
 ---
 ---
 
-@import "{{ site.theme }}"; 
+/* Variable overrides (must be first) */
+$header-bg-color: #003366;
+$header-bg-color-secondary: #001122;
+$header-heading-color: #ffffff;
+$header-text-color: #dddddd;
 
-/* Your custom styles go below this line */
+/* Import Cayman theme */
+@import "jekyll-theme-cayman";
+
+/* Custom responsive overrides */
+.page-header {
+  @include large {
+    padding: 4rem 5rem;
+  }
+
+  @include medium {
+    padding: 2rem 3rem;
+  }
+
+  @include small {
+    padding: 1rem 1rem;
+  }
+}
