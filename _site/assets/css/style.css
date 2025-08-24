@@ -339,8 +339,13 @@ a:hover { text-decoration: underline; }
 
 /* Custom responsive overrides (placed after theme import)*/
 /* Change banner width (top-bottom) */
-@media screen and (min-width: 64em) { .page-header { padding: 3rem 2rem; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 2rem 1.5rem; } }
-@media screen and (max-width: 42em) { .page-header { padding: 1rem 1rem; } }
+@media screen and (min-width: 64em) { .page-header { padding: 1.25rem 1rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem .5rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: .25rem .25rem; } }
 
-.main-content { max-width: 1500px; /* orig 64rem? then 1280px */ margin: 0 auto; padding: 0 2rem; }
+/* Add padding to top margin - pushes text down */
+.project-name { margin-top: 1.5rem; }
+
+.project-tagline { margin-top: 0.5rem; }
+
+.main-content { max-width: 1450px; /* orig 64rem? then 1280px */ margin: 0 auto; padding: 0 2rem; }

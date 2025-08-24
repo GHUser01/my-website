@@ -27,7 +27,7 @@ description: Scientific | Medical | Regulatory
   <div class="portfolio-item">
     <h3><em>Immunity</em></h3>
     <p><strong>Roan F</strong>, Ziegler SF. <br><br><br>Human group 1 innate lymphocytes are negative for surface CD3ε but express CD5. <em>Immunity</em>. 2017;46(5):758-759. doi:10.1016/j.immuni.2017.04.024.</p>
-    <a href="https://www.jci.org/articles/view/124606" target="_blank">View Publication</a>
+    <a href="https://www.cell.com/immunity/fulltext/S1074-7613(17)30189-9" target="_blank">View Publication</a>
   </div>
 </div>
 For a complete list of scientific publications, see <a href="https://pubmed.ncbi.nlm.nih.gov/collections/65035840/?sort=pubdate" target="_blank">My NCBI</a>
