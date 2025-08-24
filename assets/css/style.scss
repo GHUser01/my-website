@@ -2,25 +2,53 @@
 ---
 
 /* Variable overrides (must be first) */
-$header-bg-color: #003366;
-$header-bg-color-secondary: #001122;
+
+/* Dark blue with minimal gradient */
+//$header-bg-color: #003366;
+//$header-bg-color-secondary: #001122;
+//$header-heading-color: #ffffff;
+//$header-text-color: #dddddd;
+
+/* Cool teal gradient (minimalist & sleek) */
+/*
+$header-bg-color: #0f2027;
+$header-bg-color-secondary: #2c5364;
 $header-heading-color: #ffffff;
 $header-text-color: #dddddd;
+*/
+/* Change header text size */
+.page-header h1 {
+  font-size: 36px;
+}
+
+.page-header h2 {
+  font-size: 28px;
+}
 
 /* Import Cayman theme */
 @import "jekyll-theme-cayman";
 
-/* Custom responsive overrides */
+
+/* Custom responsive overrides (placed after theme import)*/
+/* Change banner width (top-bottom) */
 .page-header {
   @include large {
-    padding: 4rem 5rem;
+    padding: 3rem 2rem; // reduce from 4rem
   }
 
   @include medium {
-    padding: 2rem 3rem;
+    padding: 2rem 1.5rem;
   }
 
   @include small {
     padding: 1rem 1rem;
   }
+}
+
+
+// Make the site container wider but still responsive
+.main-content {
+  max-width: 1500px; /* orig 64rem? then 1280px */
+  margin: 0 auto;
+  padding: 0 2rem;
 }
