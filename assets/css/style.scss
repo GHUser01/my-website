@@ -31,6 +31,11 @@ $header-text-color: #dddddd;
 
 /* Custom responsive overrides (placed after theme import)*/
 
+/* Tight spacing for specified lines*/
+.tight-spacing {
+  margin-top: 3px;
+}
+
 /* Change banner width (top-bottom) */
 
 .page-header {
