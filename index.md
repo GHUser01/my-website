@@ -7,7 +7,7 @@ description: Scientific | Medical | Regulatory
 
 <section id="about">
   <h1>About</h1>
-  <p>MD/PhD scientist and writer with a passion for science and its application to human health.</p>
+  <p>MD/PhD scientist and writer with a passion for science and its application to human health.Testing</p>
   <ul>
     <li>Deep medical and scientific expertise in internal medicine, infectious diseases, immunology, and molecular biology</li>
     <li>Well-versed in regulatory document writing and review, as evidenced by leadership as IACUC Chair, direct responsibility for IRB submissions, and completion of the University of Washington Specialization in Regulatory Medical Writing</li>
