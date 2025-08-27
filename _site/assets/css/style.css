@@ -1,4 +1,5 @@
-/* Variable overrides (must be first) */
+@charset "UTF-8";
+/* Variable overrides (must be before style import) */
 /* Dark blue with minimal gradient */
 /* Cool teal gradient (minimalist & sleek) */
 /*
@@ -11,7 +12,7 @@ $header-text-color: #dddddd;
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 .page-header h1 { font-size: 36px; }
 
-.page-header h2 { font-size: 28px; }
+.page-header h2 { font-size: 32px; }
 
 /* Import Cayman theme */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
@@ -341,14 +342,37 @@ a:hover { text-decoration: underline; }
 /* Tight spacing for specified lines*/
 .tight-spacing { margin-top: 3px; }
 
-/* Change banner width (top-bottom) */
-@media screen and (min-width: 64em) { .page-header { padding: 1.25rem 1rem; } }
+/* Change banner subtitle text to white*/
+.page-header h2 { color: white; }
+
+/* Change banner height & position (top-bottom) */
+.page-header { position: relative; }
+@media screen and (min-width: 64em) { .page-header { padding: 1.5rem 1rem; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem .5rem; } }
 @media screen and (max-width: 42em) { .page-header { padding: .25rem .25rem; } }
 
 /* Add padding to top margin - pushes text down */
-.project-name { margin-top: 1.5rem; }
+.project-name { margin-top: 4rem; }
 
-.project-tagline { margin-top: 0.5rem; }
+.project-tagline { margin-top: 0.5rem; opacity: 1; }
+
+/* 🔽 Add navigation styles here */
+.top-nav { position: absolute; top: 1.5rem; right: 2rem; }
+.top-nav a { margin-left: 1.5rem; text-decoration: none; color: white; font-weight: bold; position: relative; transition: color 0.3s ease; }
+.top-nav a:hover { color: #e2e2e2; }
+.top-nav a::after { content: ""; position: absolute; left: 0; bottom: -3px; width: 100%; height: 2px; background: white; transform: scaleX(0); transform-origin: right; transition: transform 0.3s ease-out; }
+.top-nav a:hover::after { transform: scaleX(1); transform-origin: left; }
 
 .main-content { max-width: 1450px; /* orig 64rem? then 1280px */ margin: 0 auto; padding: 0 2rem; }
+
+/* Hanging indent for bullet points */
+ul { list-style-position: outside; padding-left: 1.5rem; }
+ul li { text-indent: -1.5rem; padding-left: 1.5rem; }
+
+ol { list-style-position: outside; padding-left: 1.5rem; }
+ol li { text-indent: -1.5rem; padding-left: 1.5rem; }
+
+/* Floating back to top icon */
+.back-to-top { position: fixed; bottom: 20px; right: 20px; /*background: #157878;*/ /*color: #fff;*/ color: black; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-size: 1rem; opacity: 0.7; transition: opacity 0.3s ease; z-index: 1000; }
+
+.back-to-top:hover { opacity: 1; }

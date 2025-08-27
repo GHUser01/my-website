@@ -1,11 +1,25 @@
 ---
 layout: default
-title: Florence Roan, MD, PhD | Writing Portfolio
+title: Florence Roan, MD, PhD | Research & Writing
 description: Scientific | Medical | Regulatory
 ---
 <br>
 
+<section id="about">
+  <h1>About</h1>
+  <p>MD/PhD scientist and writer with a passion for science and its application to human health.</p>
+  <ul>
+    <li>Deep medical and scientific expertise in internal medicine, infectious diseases, immunology, and molecular biology</li>
+    <li>Well-versed in regulatory document writing and review, as evidenced by leadership as IACUC Chair, direct responsibility for IRB submissions, and completion of the University of Washington Specialization in Regulatory Medical Writing</li>
+    <li>Extensive experience in in vivo disease models as a researcher and IACUC member</li>
+    <li>Technical proficiency in document management and collaboration tools (e.g. Microsoft 365 [Word, Excel, PowerPoint, Teams, SharePoint], EndNote, Adobe Acrobat, Box)</li>
+  </ul><br><br>
+</section>
 
+<section id="portfolio">
+  <h1>Writing Portfolio</h1>
+  <p>Scientific Publication | Medical & Scientific Journalism | Mock CME/CE Deliverables | Mock Regulatory Documents</p>
+</section>
 
 ## Scientific Publications
 

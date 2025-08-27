@@ -72,12 +72,37 @@
 
     {% include head-custom.html %}
   </head>
+
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+  
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
+    
+    <header class="page-header" role="banner" id="top">
+    <!-- basic nav without liquid logic-->
+    <!--  
+      <nav class="top-nav">
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="services.html">Services</a>
+      </nav>
+    -->
+      <nav class="top-nav">
+        <a href="{{ site.baseurl }}/">Home</a>
+        {% if page.url == "/" %}
+          <a href="#about">About</a>
+          <a href="#portfolio">Portfolio</a>
+        {% else %}
+          <a href="/#about">About</a>
+          <a href="/#portfolio">Portfolio</a>
+        {% endif %}
+          <a href="/services.html">Services</a>
+      </nav>
 
-    <header class="page-header" role="banner">
+    
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+        
       {% comment %}
         {% if site.github.is_project_page %}
           <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
