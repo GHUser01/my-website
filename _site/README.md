@@ -2,6 +2,8 @@
 
 This is my first website hosted on GitHub Pages. ✨
 
+Check it out at: https://ghuser01.github.io/my-website/
+
 Theme and layout using modified jekyll-theme-cayman.
 https://pages-themes.github.io/cayman/
 
