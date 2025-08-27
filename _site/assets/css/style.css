@@ -337,7 +337,10 @@ a:hover { text-decoration: underline; }
 
 .site-footer-credits { color: #819198; }
 
-/* Custom responsive overrides (placed after theme import)*/
+/* Custom overrides (placed after theme import)*/
+/* Enable smooth scrolling */
+html { scroll-behavior: smooth; }
+
 /* Tight spacing for specified lines*/
 .tight-spacing { margin-top: 3px; }
 

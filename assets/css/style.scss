@@ -23,8 +23,12 @@ $header-text-color: #dddddd;
 /* Import Cayman theme */
 @import "jekyll-theme-cayman";
 
+/* Custom overrides (placed after theme import)*/
 
-/* Custom responsive overrides (placed after theme import)*/
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Tight spacing for specified lines*/
 .tight-spacing {
