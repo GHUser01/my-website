@@ -18,7 +18,7 @@ description: Scientific | Medical | Regulatory
 
 <section id="portfolio">
   <h1>Writing Portfolio</h1>
-  <p>Scientific Publication | Medical & Scientific Journalism | Mock CME/CE Deliverables | Mock Regulatory Documents</p>
+  <p>Scientific Publications | Medical & Scientific Journalism | Mock CME/CE Deliverables | Mock Regulatory Documents</p>
 </section>
 
 ## Scientific Publications
