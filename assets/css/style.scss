@@ -113,23 +113,17 @@ html {
 
 
 /* Hanging indent for bullet points */
-ul {
-  list-style-position: outside;
-  padding-left: 1.5rem;
+/* Only apply to main content area (e.g., blog post section) */
+
+.main-content ul,
+.main-content ol {
+  list-style-position: inside; /* bullets inside vs outside */
+  padding-left: 0rem;
 
   li {
-    text-indent: -1.5rem;
-    padding-left: 1.5rem;
-  }
-}
-
-ol {
-  list-style-position: outside;
-  padding-left: 1.5rem;
-
-  li {
-    text-indent: -1.5rem;
-    padding-left:  1.5rem;
+    text-indent: -1.2rem;   /* negative indent to align wrapped lines */
+    padding-left: 1.2rem;   /* same as positive indent */
+    margin-bottom: 0.75rem;
   }
 }
 

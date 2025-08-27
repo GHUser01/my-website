@@ -368,11 +368,9 @@ html { scroll-behavior: smooth; }
 .main-content { max-width: 1450px; /* orig 64rem? then 1280px */ margin: 0 auto; padding: 0 2rem; }
 
 /* Hanging indent for bullet points */
-ul { list-style-position: outside; padding-left: 1.5rem; }
-ul li { text-indent: -1.5rem; padding-left: 1.5rem; }
-
-ol { list-style-position: outside; padding-left: 1.5rem; }
-ol li { text-indent: -1.5rem; padding-left: 1.5rem; }
+/* Only apply to main content area (e.g., blog post section) */
+.main-content ul, .main-content ol { list-style-position: inside; /* bullets inside vs outside */ padding-left: 0rem; }
+.main-content ul li, .main-content ol li { text-indent: -1.2rem; /* negative indent to align wrapped lines */ padding-left: 1.2rem; /* same as positive indent */ margin-bottom: 0.75rem; }
 
 /* Floating back to top icon */
 .back-to-top { position: fixed; bottom: 20px; right: 20px; /*background: #157878;*/ /*color: #fff;*/ color: black; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-size: 1rem; opacity: 0.7; transition: opacity 0.3s ease; z-index: 1000; }
